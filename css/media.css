@@ -1,0 +1,78 @@
+
+
+/* @media type condition breakpoint */
+
+/* type ==> screen , speech , print */
+
+/* consdition ==> max-width , min-width , range */
+
+/* breakpoint ==> screen size  */
+
+
+
+/* 0 : 575.98px
+@media (max-width: 575.98px) { 
+    .card{
+        width: 50%;
+    }
+}
+0 : 360px
+@media  (max-width : 360px) {
+    .card{
+        width: 100%;
+        margin-bottom: 5%;
+    }
+    .d-flex{
+        
+    }
+}
+
+
+
+@media (min-width:576px){
+    .card{
+        background-color: black;
+        color: white;
+    }
+} */
+
+
+@media (min-width:0px) and (max-width:575.98px){
+    .header-footer div:not(:nth-child(2)){
+        display: none;
+    }
+    .custom-section{
+        width: 100%;
+    }
+    .cus-sec-1{
+        width: 100%;
+    }
+    .cus-sec-2{
+        width: 100%;
+    }
+}
+@media (min-width:575.98px) and (max-width:767.98px){
+    .card{
+        
+    }
+}
+@media (min-width:767.98px) and (max-width:991.98px){
+    .card{
+        
+    }
+}
+@media (min-width:991.98px) and (max-width:1199.98px){
+    .card{
+        
+    }
+}
+@media (min-width:1199.98px) and (max-width:1399.98px){
+    .card{
+        
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .card{
+        
+    }
+}
