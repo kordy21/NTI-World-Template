@@ -48,6 +48,9 @@ img{
 .justify-content-between {
     justify-content: space-between;
 }
+.justify-content-center{
+    justify-content: center;
+}
 .align-items-center{
     align-items: center;
 }
@@ -87,7 +90,7 @@ img{
     margin: 2% 0%;
 }
 .small-card img{
-    width: 33%;
+    width: 30%;
 }
 .small-card .contect{
     padding: 4% ;
@@ -96,7 +99,7 @@ img{
     padding: 3% 0%;
 }
 .big-card{
-    width: 50%;
+    width: 47%;
     margin-right: 3%;
 }
 .big-card p{
@@ -119,12 +122,12 @@ img{
     position: sticky;
     top: 0;
 }
+#img-header li{
+    margin-left: 3%;
+}
 nav{
     padding: 1% 0%;
     border-bottom: #eeeeee9e 1px solid;
-}
-nav li{
-    margin-left: 3%;
 }
 nav h3{
     margin-right: 7%;
@@ -173,7 +176,7 @@ h6 span:hover{
     color: rgb(94, 94, 248);
 }
 .cus-sec-1{
-    width: 64%;
+    width: 60%;
 }
 
 .list-nav{
@@ -273,7 +276,7 @@ margin-bottom: 3%;
 }
 .card-bg-img-2{
     background: url(../images/4.jpg);
-    width: 100%;
+    /* width: 100%; */
     background-size: 100% 100%;
 }
 .card-bg-img-3{
